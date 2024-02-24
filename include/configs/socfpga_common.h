@@ -176,6 +176,7 @@
 	"socfpga_legacy_reset_compat=1\0" \
 	"prog_core=if load mmc 0:1 ${loadaddr} fit_spl_fpga.itb;" \
 		   "then fpga loadmk 0 ${loadaddr}:fpga-core-1; fi\0" \
+	"ethaddr=f6:7e:2b:80:a3:d3\0" \
 	SOCFPGA_BOOT_SETTINGS \
 	BOOTENV
 
